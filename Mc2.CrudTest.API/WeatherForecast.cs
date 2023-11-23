@@ -1,4 +1,4 @@
-namespace Mc2.CrudTest.Shared
+namespace Mc2.CrudTest.API
 {
     public class WeatherForecast
     {
@@ -6,8 +6,8 @@ namespace Mc2.CrudTest.Shared
 
         public int TemperatureC { get; set; }
 
-        public string? Summary { get; set; }
-
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+
+        public string? Summary { get; set; }
     }
 }
