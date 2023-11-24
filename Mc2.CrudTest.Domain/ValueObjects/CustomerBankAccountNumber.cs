@@ -8,7 +8,7 @@ public record CustomerBankAccountNumber
 
     public CustomerBankAccountNumber(string value)
     {
-        if (string.IsNullOrWhiteSpace(value) || ValidateBankAccountNumber(value))
+        if (string.IsNullOrWhiteSpace(value) || !ValidateBankAccountNumber(value))
         {
             throw new InvalidBankAccountNumberException(value);
         }
