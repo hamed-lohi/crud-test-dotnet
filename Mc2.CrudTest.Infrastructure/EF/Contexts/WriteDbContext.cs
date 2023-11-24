@@ -15,6 +15,8 @@ internal sealed class WriteDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.HasDefaultSchema("Mc2");
+
         var configuration = new WriteConfiguration();
         modelBuilder.ApplyConfiguration<Customer>(configuration);
     }

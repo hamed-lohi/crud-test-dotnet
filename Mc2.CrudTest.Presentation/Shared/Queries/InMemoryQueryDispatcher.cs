@@ -1,4 +1,4 @@
-﻿using Mc2.CrudTest.Shared.Abstractions.Queries;
+﻿using Mc2.CrudTest.Shared.Abstraction.Queries;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;

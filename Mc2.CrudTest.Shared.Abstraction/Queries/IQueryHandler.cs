@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Mc2.CrudTest.Shared.Abstractions.Queries;
+namespace Mc2.CrudTest.Shared.Abstraction.Queries;
 
 public interface IQueryHandler<in TQuery, TResult> where TQuery : class, IQuery<TResult>
 {

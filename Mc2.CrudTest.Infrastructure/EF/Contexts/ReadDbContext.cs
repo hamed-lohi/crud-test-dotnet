@@ -15,6 +15,7 @@ internal sealed class ReadDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.HasDefaultSchema("Mc2");
 
         var configuration = new ReadConfiguration();
         modelBuilder.ApplyConfiguration<CustomerReadModel>(configuration);

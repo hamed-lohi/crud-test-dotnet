@@ -3,7 +3,7 @@ using Mc2.CrudTest.Application.DTO;
 using Mc2.CrudTest.Application.Queries;
 using Mc2.CrudTest.Infrastructure.EF.Contexts;
 using Mc2.CrudTest.Infrastructure.EF.Models;
-using Mc2.CrudTest.Shared.Abstractions.Queries;
+using Mc2.CrudTest.Shared.Abstraction.Queries;
 using Microsoft.EntityFrameworkCore;
 
 namespace Mc2.CrudTest.Infrastructure.EF.Queries.Handlers;
