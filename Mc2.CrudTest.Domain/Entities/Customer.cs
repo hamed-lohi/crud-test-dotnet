@@ -27,4 +27,8 @@ public class Customer: AggregateRoot<CustomerId>
         _bankAccountNumber = bankAccountNumber;
     }
 
+    public void SetBankAccountNumber(CustomerBankAccountNumber bankAccountNumber)
+    {
+        _bankAccountNumber = bankAccountNumber;
+    }
 }
