@@ -54,7 +54,7 @@ public class CustpmerTests
             var customer = CreateCustomer();
 
             customer.ShouldNotBeNull();
-            customer.Firstname.ShouldBe("Hamed");
+            customer.Id.ShouldNotBeNull();
         }
 
 

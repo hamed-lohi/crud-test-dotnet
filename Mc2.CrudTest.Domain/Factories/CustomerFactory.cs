@@ -6,9 +6,7 @@ namespace Mc2.CrudTest.Domain.Factories;
 
 public sealed class CustomerFactory : ICustomerFactory
 {
-    public Customer Create(CustomerId id, string firstname, string lastname, DateTime dateOfBirth, 
+    public Customer Create(CustomerId id, string firstname, string lastname, DateTime dateOfBirth,
         string phoneNumber, CustomerEmail email, CustomerBankAccountNumber bankAccountNumber)
-    {
-        throw new NotImplementedException();
-    }
+    => new (id, firstname, lastname, dateOfBirth, phoneNumber, email, bankAccountNumber);
 }
