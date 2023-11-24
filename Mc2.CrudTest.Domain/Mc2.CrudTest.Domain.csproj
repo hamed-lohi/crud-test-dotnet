@@ -8,9 +8,11 @@
 
   <ItemGroup>
     <Folder Include="Consts\" />
-    <Folder Include="Entities\" />
     <Folder Include="Policies\" />
-    <Folder Include="ValueObjects\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mc2.CrudTest.Shared.Abstraction\Mc2.CrudTest.Shared.Abstraction.csproj" />
   </ItemGroup>
 
 </Project>
